@@ -30,7 +30,7 @@ export class ProductsService {
       
     );
   }
-
+  
   deleteproduct(id: number): Observable<product[]> {
     const url = `http://localhost:3000/tables/${id}`;
     window.location.reload();
