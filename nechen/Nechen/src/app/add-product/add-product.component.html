@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   body{
+      background-color: rgb(241, 240, 240);}
+  
+    
+  </style>
+ 
+</head>
+
+
+<body>
+  <div class="w3-container w3-content w3-center w3-padding-64" >
+    <h2 class="w3-wide"> ADD NEW  PRODUCT</h2>
+    </div>
+    <!-- {{products.img}} -->
+  <form action="/action_page.php" target="_blank">
+    <p><input  class="w3-input w3-padding-16 w3-border" type="text" placeholder="Image" required name="image" ></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="name" ></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Price" required name="description"></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Description " required name="price" ></p>
+    <p>
+      <button (click)="add()" class="w3-button w3-light-grey w3-padding-large" type="submit">
+        <i class="fa fa-paper-plane"> ADD PRODUCT</i>
+      </button>
+    </p>
+  </form>
+</body>
+</html>
+  
